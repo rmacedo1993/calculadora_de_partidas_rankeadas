@@ -2,7 +2,7 @@ let quantVitorias = 45
 let quantDerrotas = 15
 let calculoRankeadas = (quantVitorias - quantDerrotas);
 
-function calculadoraRnkd(valor){
+function calculadoraRnkd(){
 	switch (true) {
     	case (calculoRankeadas < 10):
         	rankedCalculator = "Ferro";
